@@ -4,7 +4,7 @@
             "timeperiod":"1000-1300",
             "keyinfo": "Art historians typically consider the Romanesque art era to be the start of the art history timeline. Romanesque art developed during the rise of Christianity ca. 1000 AD. During this time, only a small percentage of the European population were literate, so paintings of Christian objects, stories, saints and ceremonies were used to spread Christianity.",
             "keyartists": [
-                {"name":"Master of Taüll","info":"InfoOne"},
+                {"name":"Master of Taüll","info":"The Master of Taüll is considered the greatest mural painter of the 12th century in Catalonia, as well as one of the most important Romanesque painters in Europe."},
                 {"name":"Master of Pedret","info":"InfoTwo"},
                 {"name":"Berlinghiero","info":"InfoThree"}
             ]

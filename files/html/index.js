@@ -1,6 +1,7 @@
 async function getPeriods () {
     const response = await fetch('http://localhost:3000/static/json/periods.json')
     const data = await response.json()
+
     console.log(data)
     romanButtonInitalise(data)
     createPeriodList(data)
@@ -30,20 +31,35 @@ async function loadPeriodName (period) {
     document.getElementById('artist3').innerHTML = `
     <button class="btn btn-warning btn-lg" type="button" onclick='updateArtistInfo("three")'>${artistThree}</button>
     `
+    document.getElementById('selectedPeriodWork').innerHTML = `
+    <img src="${periodImageLink}" class="img-fluid">
+    `
+    document.getElementById('selectedPeriodWorkName').innerHTML = `
+    ${periodImageName}
+    `
     updateArtistInfo('one')
 }
 
 async function getPeriodInfo (period) {
     const response = await fetch('http://localhost:3000/static/json/periods.json')
     const data = await response.json()
+    const linkData = await getArtLinks()
     description = data[period][0].keyinfo
+    periodImageName = linkData[period][0].periodWork[0].name
+    periodImageLink = linkData[period][0].periodWork[0].link
     artistOne = data[period][0].keyartists[0].name
     artistOneInfo = data[period][0].keyartists[0].info
+    artistOneImageName = linkData[period][0].artistWork[0].name
+    artistOneImageLink = linkData[period][0].artistWork[0].link
     artistTwo = data[period][0].keyartists[1].name
     artistTwoInfo = data[period][0].keyartists[1].info
+    artistTwoImageName = linkData[period][0].artistWork[1].name
+    artistTwoImageLink = linkData[period][0].artistWork[1].link
     artistThree = data[period][0].keyartists[2].name
     artistThreeInfo = data[period][0].keyartists[2].info
-    return {description, artistOne, artistTwo, artistThree, artistOneInfo, artistTwoInfo, artistThreeInfo}
+    artistThreeImageName = linkData[period][0].artistWork[2].name
+    artistThreeImageLink = linkData[period][0].artistWork[2].link
+    return {description, periodImageLink, periodImageLink, artistOne, artistTwo, artistThree, artistOneInfo, artistTwoInfo, artistThreeInfo, artistOneImageName, artistOneImageLink, artistTwoImageName, artistTwoImageLink, artistThreeImageName, artistThreeImageLink}
 }
 
 function updateArtistInfo (artistIndex) {
@@ -53,6 +69,12 @@ function updateArtistInfo (artistIndex) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistOneInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistOneImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistOneImageName}
         `;
     }
     if (artistIndex == "two") {
@@ -61,6 +83,12 @@ function updateArtistInfo (artistIndex) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistTwoInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistTwoImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistTwoImageName}
         `;
     }
     if (artistIndex == "three") {
@@ -69,6 +97,12 @@ function updateArtistInfo (artistIndex) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistThreeInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistThreeImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistThreeImageName}
         `;
     }
 }
@@ -120,11 +154,10 @@ function romanButtonClick (index) {
     }
 }
 
-
-
-
-
-
-
+async function getArtLinks () {
+    const response = await fetch('http://localhost:3000/static/json/artLinks.json')
+    const linkData = await response.json()
+    return linkData
+}
 
 getPeriods()

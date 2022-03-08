@@ -1,0 +1,242 @@
+{
+    "Romanesque": [
+        {
+            "periodWork": [
+                {"name":"The Temptation of Christ by the Devil","link":"http://localhost:3000/static/images/period/romanesque.jpg"}
+            ],
+            "artistWork": [
+                {"name":"Apse of Sant Climent, Taüll","link":"http://localhost:3000/static/images/artist/romanesque-1.jpg"},
+                {"name":"The Virgin and Child in Majesty and the Adoration of the Magi","link":"http://localhost:3000/static/images/artist/romanesque-2.jpg"},
+                {"name":"Madonna and child","link":"http://localhost:3000/static/images/artist/romanesque-3.jpg"}
+            ]
+        }
+    ],
+    "Gothic": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Renaissance": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Mannerism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Baroque": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Rococo": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Romanticism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Realism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Impressionism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Symbolism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Art Nouveau": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Expressionism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Cubism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Futurism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Dadaism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Surrealism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "New Objectivity": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Abstract Expressionism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Pop-Art": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ],
+    "Neo-Expressionism": [
+        {
+            "periodWork": [
+                {"name":"","link":""}
+            ],
+            "artistWork": [
+                {"name":"","link":""},
+                {"name":"","link":""},
+                {"name":"","link":""}
+            ]
+        }
+    ]
+}

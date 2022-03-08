@@ -15,6 +15,18 @@ function createPeriodList (periodList) {
         }).join('')}
     <select>
     `
+    document.getElementById('selectedPeriodWork').innerHTML = `
+    <img src="http://localhost:3000/static/images/period/romanesque.jpg" class="img-fluid">
+    `
+    document.getElementById('selectedPeriodWorkName').innerHTML = `
+    The Temptation of Christ by the Devil
+    `
+    document.getElementById('selectedArtistWork').innerHTML = `
+    <img src="http://localhost:3000/static/images/artist/romanesque-1.jpg" class="img-fluid">
+    `
+    document.getElementById('selectedArtistWorkName').innerHTML = `
+    Apse of Sant Climent, Taüll
+    `
 }
 
 async function loadPeriodName (period) {
@@ -107,14 +119,21 @@ function updateArtistInfo (artistIndex) {
     }
 }
 
-function romanButtonInitalise (data) {
+async function romanButtonInitalise (data) {
     const period = 'Romanesque'
+    const linkData = await getArtLinks()
     artistOne = data[period][0].keyartists[0].name
     artistOneInfo = data[period][0].keyartists[0].info
     artistTwo = data[period][0].keyartists[1].name
     artistTwoInfo = data[period][0].keyartists[1].info
     artistThree = data[period][0].keyartists[2].name
     artistThreeInfo = data[period][0].keyartists[2].info
+    artistOneImageName = linkData[period][0].artistWork[0].name
+    artistOneImageLink = linkData[period][0].artistWork[0].link
+    artistTwoImageName = linkData[period][0].artistWork[1].name
+    artistTwoImageLink = linkData[period][0].artistWork[1].link
+    artistThreeImageName = linkData[period][0].artistWork[2].name
+    artistThreeImageLink = linkData[period][0].artistWork[2].link
 
     document.getElementById('artist1').innerHTML = `
     <button class="btn btn-danger btn-lg" type="button" onclick='romanButtonClick("one")'>${artistOne}</button>
@@ -134,6 +153,12 @@ function romanButtonClick (index) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistOneInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistOneImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistOneImageName}
         `;
     }
     if (index == "two") {
@@ -142,6 +167,12 @@ function romanButtonClick (index) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistTwoInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistTwoImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistTwoImageName}
         `;
     }
     if (index == "three") {
@@ -150,6 +181,12 @@ function romanButtonClick (index) {
         `
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistThreeInfo}
+        `
+        document.getElementById('selectedArtistWork').innerHTML = `
+        <img src="${artistThreeImageLink}" class="img-fluid">
+        `
+        document.getElementById('selectedArtistWorkName').innerHTML = `
+        ${artistThreeImageName}
         `;
     }
 }

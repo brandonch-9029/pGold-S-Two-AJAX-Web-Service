@@ -2,6 +2,7 @@ async function getPeriods () {
     const response = await fetch('http://localhost:3000/static/json/periods.json')
     const data = await response.json()
     console.log(data)
+    romanButtonInitalise(data)
     createPeriodList(data)
 }
 
@@ -29,6 +30,7 @@ async function loadPeriodName (period) {
     document.getElementById('artist3').innerHTML = `
     <button class="btn btn-warning btn-lg" type="button" onclick='updateArtistInfo("three")'>${artistThree}</button>
     `
+    updateArtistInfo('one')
 }
 
 async function getPeriodInfo (period) {
@@ -36,21 +38,93 @@ async function getPeriodInfo (period) {
     const data = await response.json()
     description = data[period][0].keyinfo
     artistOne = data[period][0].keyartists[0].name
+    artistOneInfo = data[period][0].keyartists[0].info
     artistTwo = data[period][0].keyartists[1].name
+    artistTwoInfo = data[period][0].keyartists[1].info
     artistThree = data[period][0].keyartists[2].name
-    return {description, artistOne, artistTwo, artistThree}
+    artistThreeInfo = data[period][0].keyartists[2].info
+    return {description, artistOne, artistTwo, artistThree, artistOneInfo, artistTwoInfo, artistThreeInfo}
 }
 
 function updateArtistInfo (artistIndex) {
     if (artistIndex == "one") {
-        console.log("clicked on first artist");
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistOne}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistOneInfo}
+        `;
     }
     if (artistIndex == "two") {
-        console.log("clicked on second artist");
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistTwo}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistTwoInfo}
+        `;
     }
     if (artistIndex == "three") {
-        console.log("clicked on third artist");
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistThree}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistThreeInfo}
+        `;
     }
 }
+
+function romanButtonInitalise (data) {
+    const period = 'Romanesque'
+    artistOne = data[period][0].keyartists[0].name
+    artistOneInfo = data[period][0].keyartists[0].info
+    artistTwo = data[period][0].keyartists[1].name
+    artistTwoInfo = data[period][0].keyartists[1].info
+    artistThree = data[period][0].keyartists[2].name
+    artistThreeInfo = data[period][0].keyartists[2].info
+
+    document.getElementById('artist1').innerHTML = `
+    <button class="btn btn-danger btn-lg" type="button" onclick='romanButtonClick("one")'>${artistOne}</button>
+    `
+    document.getElementById('artist2').innerHTML = `
+    <button class="btn btn-primary btn-lg" type="button" onclick='romanButtonClick("two")'>${artistTwo}</button>
+    `
+    document.getElementById('artist3').innerHTML = `
+    <button class="btn btn-warning btn-lg" type="button" onclick='romanButtonClick("three")'>${artistThree}</button>
+    `
+}
+
+function romanButtonClick (index) {
+    if (index == "one") {
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistOne}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistOneInfo}
+        `;
+    }
+    if (index == "two") {
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistTwo}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistTwoInfo}
+        `;
+    }
+    if (index == "three") {
+        document.getElementById('selectedArtistName').innerHTML = `
+        ${artistThree}
+        `
+        document.getElementById('selectedArtistInfo').innerHTML = `
+        ${artistThreeInfo}
+        `;
+    }
+}
+
+
+
+
+
+
+
 
 getPeriods()

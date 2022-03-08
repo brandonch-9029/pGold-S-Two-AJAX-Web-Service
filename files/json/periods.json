@@ -4,9 +4,9 @@
             "timeperiod":"1000-1300",
             "keyinfo": "Art historians typically consider the Romanesque art era to be the start of the art history timeline. Romanesque art developed during the rise of Christianity ca. 1000 AD. During this time, only a small percentage of the European population were literate, so paintings of Christian objects, stories, saints and ceremonies were used to spread Christianity.",
             "keyartists": [
-                {"name":"Master of Taüll","info":"xxx"},
-                {"name":"Master of Pedret","info":"xxx"},
-                {"name":"Berlinghiero","info":"xxx"}
+                {"name":"Master of Taüll","info":"InfoOne"},
+                {"name":"Master of Pedret","info":"InfoTwo"},
+                {"name":"Berlinghiero","info":"InfoThree"}
             ]
         }
     ],
@@ -15,9 +15,9 @@
             "timeperiod":"1100-1500",
             "keyinfo": "Gothic art was a style of medieval art that developed in Northern France out of Romanesque art in the 12th century AD, led by the concurrent development of Gothic architecture. The style rapidly spread beyond its origins in architecture to sculpture, both monumental and personal in size, textile art, and painting, which took a variety of forms, including fresco, stained glass, the illuminated manuscript, and panel painting.",
             "keyartists": [
-                {"name":"Giotto","info":"xxx"},
-                {"name":"Ambrogio Lorenzetti","info":"xxx"},
-                {"name":"Giusto de' Menabuoi","info":"xxx"}
+                {"name":"Giotto","info":"InfoOne"},
+                {"name":"Ambrogio Lorenzetti","info":"InfoTwo"},
+                {"name":"Giusto de' Menabuoi","info":"InfoThree"}
             ]
         }
     ],
@@ -115,7 +115,7 @@
             "keyinfo": "A reaction against the academic art, eclecticism and historicism of 19th century architecture and decoration, Art Nouveau was characterised by a sense of dynamism and movement, often given by asymmetry or whiplash lines, and the use of modern materials, particularly iron, glass, ceramics and later concrete, to create unusual forms and larger open spaces.",
             "keyartists": [
                 {"name":"Alphonse Mucha","info":"xxx"},
-                {"name":"Henri de Toulouse-Lautrec","info":"xxx"},
+                {"name":"Gustav Klimt","info":"xxx"},
                 {"name":"Aubrey Beardsley","info":"xxx"}
             ]
         }

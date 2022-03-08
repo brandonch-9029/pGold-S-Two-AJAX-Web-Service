@@ -191,6 +191,17 @@ function romanButtonClick (index) {
     }
 }
 
+function addUserData (ev) {
+    ev.preventDefault()
+    let user = {
+        userName: document.getElementById('userInputName').value,
+        userEmail: document.getElementById('userInputEmail').value,
+        userMessage: document.getElementById('userInputText').value
+    }
+    document.forms[0].reset()
+    console.log(user)
+}
+
 async function getArtLinks () {
     const response = await fetch('http://localhost:3000/static/json/artLinks.json')
     const linkData = await response.json()
@@ -198,3 +209,7 @@ async function getArtLinks () {
 }
 
 getPeriods()
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('userSubmitBtn').addEventListener('click', addUserData)
+})

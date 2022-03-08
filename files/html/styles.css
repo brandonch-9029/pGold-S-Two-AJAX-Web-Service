@@ -1,3 +1,7 @@
 .form-select-sm {
-    font-size: 3rem;
+    font-size: 44px;
+}
+
+#selectedArtistName {
+    font-size: 54px;
 }

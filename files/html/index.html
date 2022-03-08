@@ -41,40 +41,45 @@
     <div class="p-5 mb-0 bg-light rounded-3">
         <div class="container-fluid py-5">
           <div class="row">
-            <div class="mb-3 col-md-6" id="periodDrop">
+            <div class="col-md-5">
+              <div class="mb-3" id="periodDrop">
+              </div>
+              <p id="periodInfo" class="fs-5">
+                Art historians typically consider the Romanesque art era to be the start of the art history timeline. Romanesque art developed during the rise of Christianity ca. 1000 AD. During this time, only a small percentage of the European population were literate, so paintings of Christian objects, stories, saints and ceremonies were used to spread Christianity.
+              </p>
+            </div>
+
+            <div class="col-md-7">
+              <!--Image Here-->
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5">
-                <p id="periodInfo" class="fs-5">
-                  Art historians typically consider the Romanesque art era to be the start of the art history timeline. Romanesque art developed during the rise of Christianity ca. 1000 AD. During this time, only a small percentage of the European population were literate, so paintings of Christian objects, stories, saints and ceremonies were used to spread Christianity.
-                </p>
-              </div>
-              <div class="col-md-7">
-                <!--Image Here-->
-              </div>
-            </div>
-          </div>
-          
-          <button id="artist1" class="btn btn-danger btn-lg" type="button">Master of Taüll</button>
-          <button id="artist2" class="btn btn-primary btn-lg" type="button">Master of Pedret</button>
-          <button id="artist3" class="btn btn-warning btn-lg" type="button">Berlinghiero</button>
         </div>
     </div>
 
     <!--Artist Info-->
     <div class="p-5 mb-0 bg-light rounded-3">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold text-end">Master of Taüll</h1>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-7">
-                <!--Image here-->
+          <div class="row">
+            <div class="col-md-6">
+              <!--Image Here-->
+            </div>
+            <div class="col-md-6">
+              <div class="d-grid gap-2 d-md-block text-end">
+                <span id="artist1">
+                  <button class="btn btn-danger btn-lg" type="button">Master of Taüll</button>
+                </span>
+                <span id="artist2">
+                  <button class="btn btn-primary btn-lg" type="button">Master of Pedret</button>
+                </span>
+                <span id="artist3">
+                  <button class="btn btn-warning btn-lg" type="button">Berlinghiero</button>
+                </span>
               </div>
-              <div class="col-md-5 text-end">
-                <p class="fs-5">The Master of Taüll is considered the greatest mural painter of the 12th century in Catalonia, as well as one of the most important Romanesque painters in Europe.</p>
+              <h1 id="selectedArtistName" class="display-5 fw-bold text-end">
+                Master of Taüll
+              </h1>
+              <div class="text-end">
+                <p id="selectedArtistInfo" class="fs-5">The Master of Taüll is considered the greatest mural painter of the 12th century in Catalonia, as well as one of the most important Romanesque painters in Europe.</p>
               </div>
             </div>
           </div>

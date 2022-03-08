@@ -7,7 +7,7 @@ async function getPeriods () {
 
 function createPeriodList (periodList) {
     document.getElementById('periodDrop').innerHTML = `
-    <select onchange='loadPeriodName(this.value)'>
+    <select class="form-select form-select-sm fw-bold" onchange='loadPeriodName(this.value)'>
         ${Object.keys(periodList).map(function (period) {
             return `<option>${period}</option>`
         }).join('')}
@@ -16,9 +16,6 @@ function createPeriodList (periodList) {
 }
 
 async function loadPeriodName (period) {
-    document.getElementById('periodName').innerHTML = `
-    ${period}
-    `
     let infoString = await getPeriodInfo(period)
     document.getElementById('periodInfo').innerHTML = `
     ${infoString}

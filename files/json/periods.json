@@ -158,9 +158,9 @@
             "timeperiod":"1912-1920",
             "keyinfo": "Developed in reaction to World War I, the Dada movement consisted of artists who rejected the logic, reason, and aestheticism of modern capitalist society, instead expressing nonsense, irrationality, and anti-bourgeois protest in their works. Dadaist artists expressed their discontent toward violence, war, and nationalism, and maintained political affinities with radical left-wing and far-left politics.",
             "keyartists": [
-                {"name":"Marcel Duchamp","info":"xxx"},
-                {"name":"Max Ernst","info":"xxx"},
-                {"name":"Francis Picabia","info":"xxx"}
+                {"name":"Marcel Duchamp","info":"Duchamp is commonly regarded, along with Pablo Picasso and Henri Matisse, as one of the three artists who helped to define the revolutionary developments in the plastic arts in the opening decades of the 20th century, responsible for significant developments in painting and sculpture."},
+                {"name":"Max Ernst","info":"A prolific artist, Ernst was a primary pioneer of the Dada movement and surrealism. He had no formal artistic training, but his experimental attitude toward the making of art resulted in his invention of frottage—a technique that uses pencil rubbings of objects as a source of images—and grattage, an analogous technique in which paint is scraped across canvas to reveal the imprints of the objects placed beneath."},
+                {"name":"Francis Picabia","info":"Picabia was a French avant-garde painter, poet and typographist. After experimenting with Impressionism and Pointillism, Picabia became associated with Cubism. His highly abstract planar compositions were colourful and rich in contrasts. He was one of the early major figures of the Dada movement in the United States and in France."}
             ]
         }
     ],
@@ -169,20 +169,9 @@
             "timeperiod":"1920-1930",
             "keyinfo": "Surrealism aims to revolutionise human experience. It balances a rational vision of life with one that asserts the power of the unconscious and dreams. The movement's artists find magic and strange beauty in the unexpected and the uncanny, the disregarded and the unconventional.",
             "keyartists": [
-                {"name":"Salvador Dali","info":"xxx"},
-                {"name":"Frida Kahlo","info":"xxx"},
-                {"name":"René Magritte","info":"xxx"}
-            ]
-        }
-    ],
-    "New Objectivity": [
-        {
-            "timeperiod":"1925-1965",
-            "keyinfo": "The New Objectivity (Neue Sachlichkeit) emerged as a style in Germany in the 1920s as a challenge to Expressionism. As its name suggests, it offered a return to unsentimental reality and a focus on the objective world, as opposed to the more abstract, romantic, or idealistic tendencies of Expressionism",
-            "keyartists": [
-                {"name":"Otto Dix","info":"xxx"},
-                {"name":"George Grosz","info":"xxx"},
-                {"name":"Christian Schad","info":"xxx"}
+                {"name":"Salvador Dali","info":"Dali was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work. Dalí received his formal education in fine arts in Madrid. Influenced by Impressionism and the Renaissance masters from a young age, he became increasingly attracted to Cubism and avant-garde movements."},
+                {"name":"Frida Kahlo","info":"Inspired by Mexico's popular culture, Kahlo employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society. Her paintings often had strong autobiographical elements and mixed realism with fantasy. "},
+                {"name":"René Magritte","info":"Magritte was a Belgian surrealist artist, who became well known for creating a number of witty and thought-provoking images. Often depicting ordinary objects in an unusual context, his work is known for challenging observers' preconditioned perceptions of reality. His imagery has influenced pop art, minimalist art, and conceptual art."}
             ]
         }
     ],
@@ -191,9 +180,9 @@
             "timeperiod":"1948-1962",
             "keyinfo": "The abstract expressionists were mostly based in New York City, and also became known as the New York school. The name evokes their aim to make art that while abstract was also expressive or emotional in its effect. They were inspired by the surrealist idea that art should come from the unconscious mind.",
             "keyartists": [
-                {"name":"Jackson Pollock","info":"xxx"},
-                {"name":"Willem de Kooning","info":"xxx"},
-                {"name":"Mark Rothko","info":"xxx"}
+                {"name":"Jackson Pollock","info":"Pollock was widely noticed for his \"drip technique\" of pouring or splashing liquid household paint onto a horizontal surface, enabling him to view and paint his canvases from all angles. This extreme form of abstraction divided the critics: some praised the immediacy of the creation, while others derided the random effects."},
+                {"name":"Willem de Kooning","info":"Kooning was born in Rotterdam and moved to the United States in 1926, becoming an American citizen in 1962. His etrospective held at MoMA in 2011–2012 made him one of the best-known artists of the 20th century."},
+                {"name":"Mark Rothko","info":"Rothko's work is characterized by rigorous attention to formal elements such as color, shape, balance, depth, composition, and scale; yet, he refused to consider his paintings solely in these terms. He explained: \"It is a widely accepted notion among painters that it does not matter what one paints as long as it is well painted. This is the essence of academicism. There is no such thing as good painting about nothing.\""}
             ]
         }
     ],
@@ -202,9 +191,9 @@
             "timeperiod":"1955-1969",
             "keyinfo": "Pop Art began as a revolt against the dominant approaches to art and culture and traditional views on what art should be. Young artists felt that what they were taught at art school and what they saw in museums did not have anything to do with their lives or the things they saw around them every day. Instead they turned to sources such as Hollywood movies, advertising, product packaging, pop music and comic books for their imagery.",
             "keyartists": [
-                {"name":"Andy Warhol","info":"xxx"},
-                {"name":"Roy Lichtenstein","info":"xxx"},
-                {"name":"Jasper Johns","info":"xxx"}
+                {"name":"Andy Warhol","info":"Warhol's works explore the relationship between artistic expression, advertising, and celebrity culture that flourished by the 1960s, and span a variety of media, including painting, silkscreening, photography, film, and sculpture. Some of his best known works include the silkscreen paintings Campbell's Soup Cans (1962) and Marilyn Diptych (1962)."},
+                {"name":"Roy Lichtenstein","info":"Lichtenstein Inspired by the comic strip, Lichtenstein produced precise compositions that documented while they parodied, often in a tongue-in-cheek manner. His work was influenced by popular advertising and the comic book style. His artwork was considered to be \"disruptive\"."},
+                {"name":"Jasper Johns","info":"Johns is an American painter, sculptor, and printmaker whose work is associated with abstract expressionism, Neo-Dada, and pop art. He is well known for his depictions of the American flag and other US-related topics. Johns has received many honors throughout his career, including receipt of the National Medal of Arts in 1990, and the Presidential Medal of Freedom in 2011."}
             ]
         }
     ]

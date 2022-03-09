@@ -200,6 +200,11 @@ function addUserData (ev) {
     }
     document.forms[0].reset()
     console.log(user)
+    let url = 'http://localhost:3000/submit'
+    let req = new XMLHttpRequest
+    req.open('POST', url, true)
+    req.setRequestHeader('Content-Type',"application/json; charset=UTF-8")
+    req.send(JSON.stringify(user))
 }
 
 async function getArtLinks () {

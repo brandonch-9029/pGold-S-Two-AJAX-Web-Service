@@ -5,8 +5,8 @@
             "keyinfo": "Art historians typically consider the Romanesque art era to be the start of the art history timeline. Romanesque art developed during the rise of Christianity ca. 1000 AD. During this time, only a small percentage of the European population were literate, so paintings of Christian objects, stories, saints and ceremonies were used to spread Christianity.",
             "keyartists": [
                 {"name":"Master of Taüll","info":"The Master of Taüll is considered the greatest mural painter of the 12th century in Catalonia, as well as one of the most important Romanesque painters in Europe."},
-                {"name":"Master of Pedret","info":"InfoTwo"},
-                {"name":"Berlinghiero","info":"InfoThree"}
+                {"name":"Master of Pedret","info":"Master of Pedret is the name given by historians to a Romanesque fresco painter active in Catalonia in the early twelfth century. The name has been given one of his most representative works, the right side of the apse of the church of San Quirze Pedret"},
+                {"name":"Berlinghiero","info":"Berlinghiero, also known as Berlinghiero Berlinghieri, was an Italian painter in the Italo-Byzantine style of the early thirteenth century. He was the father of the painters Barone Berlinghieri, Bonaventura Berlinghieri, and Marco Berlinghieri."}
             ]
         }
     ],
@@ -15,9 +15,9 @@
             "timeperiod":"1100-1500",
             "keyinfo": "Gothic art was a style of medieval art that developed in Northern France out of Romanesque art in the 12th century AD, led by the concurrent development of Gothic architecture. The style rapidly spread beyond its origins in architecture to sculpture, both monumental and personal in size, textile art, and painting, which took a variety of forms, including fresco, stained glass, the illuminated manuscript, and panel painting.",
             "keyartists": [
-                {"name":"Giotto","info":"InfoOne"},
-                {"name":"Ambrogio Lorenzetti","info":"InfoTwo"},
-                {"name":"Giusto de' Menabuoi","info":"InfoThree"}
+                {"name":"Giotto","info":"Giotto di Bondone was an Italian painter and architect from Florence during the Late Middle Ages. Giorgio Vasari described Giotto as making a decisive break with the prevalent Byzantine style and as initiating \"the great art of painting as we know it today, introducing the technique of drawing accurately from life, which had been neglected for more than two hundred years\""},
+                {"name":"Ambrogio Lorenzetti","info":"Ambrogio Lorenzetti was an Italian painter of the Sienese school. He was highly influenced by both Byzantine art and classical art forms, and used these to create a unique and individualistic style of painting. His work was exceptionally original. Individuality at this time was unusual due to the influence of patronage on art"},
+                {"name":"Giusto de' Menabuoi","info":"Probably, but not confirmed as, a pupil of Giotto, de' Menabuoi was notable for his use of bright colour and became a painter at the court of Da Carrara. Pursuing his own archaic style, far removed from Gothic style and realism of his contemporaries Altichiero and Jacopo d'Avanzi, he was to leave no trace in the development of subsequent Venetian painting."}
             ]
         }
     ],
@@ -26,9 +26,9 @@
             "timeperiod":"1350-1620",
             "keyinfo": "Renaissance emerged as a distinct style in Italy around AD 1400. It took the art of Classical antiquity as its foundation, as it was perceived as the noblest of ancient traditions, then transformed with recent developments in the art of Northern Europe and contemporary scientific knowledge.",
             "keyartists": [
-                {"name":"Leonardo da Vinci","info":"xxx"},
-                {"name":"Michelangelo","info":"xxx"},
-                {"name":"Raphael","info":"xxx"}
+                {"name":"Leonardo da Vinci","info":"Leonardo is among the greatest painters in the history of art and is often credited as the founder of the High Renaissance. His magnum opus, the Mona Lisa, is his best known work and often regarded as the world's most famous painting. The Last Supper is the most reproduced religious painting of all time and his Vitruvian Man drawing is also regarded as a cultural icon."},
+                {"name":"Michelangelo","info":"Michelangelo is often considered a contender for the title of the archetypal Renaissance man, along with his rival and elder contemporary, Leonardo da Vinci. Given the sheer volume of surviving correspondence, sketches, and reminiscences, Michelangelo is one of the best-documented artists of the 16th century and several scholars have described Michelangelo as the most accomplished artist of his era."},
+                {"name":"Raphael","info":"Raphael's work was admired for its clarity of form, ease of composition, and visual achievement of the Neoplatonic ideal of human grandeur. He was enormously productive, running an unusually large workshop and, despite his early death at 37, leaving a large body of work"}
             ]
         }
     ],
@@ -37,9 +37,9 @@
             "timeperiod":"1520-1690",
             "keyinfo": "Also known as Late Renaissance, Mannerism is a style of European art that was influenced by and reacted to the ideals of Renaissance artists. Where High Renaissance art emphasizes proportion, balance, and ideal beauty, Mannerism exaggerates such qualities, often resulting in compositions that are asymmetrical or unnaturally elegant.",
             "keyartists": [
-                {"name":"Michelangelo","info":"xxx"},
-                {"name":"Jacopo da Pontormo","info":"xxx"},
-                {"name":"Parmigianino","info":"xxx"}
+                {"name":"Michelangelo","info":"In his later paintings and sculptures, Michelangelo himself strayed from the style of High Renaissance. His huge fresco The Last Judgement (1536–41) in the Sistine Chapel shows strong Mannerist tendencies in its agitated composition, formless and indeterminate space, and in the tortured poses and exaggerated musculature of its bunches of nude figures."},
+                {"name":"Jacopo da Pontormo","info":"Pontormo's work represents a profound stylistic shift from the calm perspectival regularity that characterized the art of the Florentine Renaissance. He is famous for his use of twining poses, coupled with ambiguous perspective; his figures often seem to float in an uncertain environment, unhampered by the forces of gravity."},
+                {"name":"Parmigianino","info":"Parmigianino's work is characterized by a \"refined sensuality\" and often elongation of forms and includes Vision of Saint Jerome (1527) and the iconic if somewhat anomalous Madonna with the Long Neck (1534), and he remains the best known artist of the first generation whose whole careers fall into the Mannerist period. He produced outstanding drawings, and was one of the first Italian painters to experiment with printmaking."}
             ]
         }
     ],
@@ -48,9 +48,9 @@
             "timeperiod":"1590-1760",
             "keyinfo": "The Baroque style used contrast, movement, exuberant detail, deep colour, grandeur, and surprise to achieve a sense of awe. The style began at the start of the 17th century in Rome, then spread rapidly to France, northern Italy, Spain, and Portugal, then to Austria, southern Germany, and Russia. Motifs introduced by Baroque are: baskets of fruit or flowers, trophies, and weapons.",
             "keyartists": [
-                {"name":"Caravaggio","info":"xxx"},
-                {"name":"Rembrandt","info":"xxx"},
-                {"name":"Vermeer","info":"xxx"}
+                {"name":"Caravaggio","info":"Caravaggio employed close physical observation with a dramatic use of chiaroscuro that came to be known as tenebrism. Caravaggio vividly expressed crucial moments and scenes, often featuring violent struggles, torture, and death. He worked rapidly, with live models, preferring to forgo drawings and work directly onto the canvas."},
+                {"name":"Rembrandt","info":"Unlike most Dutch masters of the 17th century, Rembrandt's works depict a wide range of style and subject matter, from portraits and self-portraits to landscapes, genre scenes, allegorical and historical scenes, and biblical and mythological themes as well as animal studies. His contributions to art came in a period of great wealth and cultural achievement that historians call the Dutch Golden Age."},
+                {"name":"Vermeer","info":"Vermeer specialized in domestic interior scenes of middle-class life. During his lifetime, he was a moderately successful provincial genre painter, recognized in Delft and The Hague. He worked slowly and with great care, and frequently used very expensive pigments. He is particularly renowned for his masterly treatment and use of light in his work."}
             ]
         }
     ],
@@ -59,9 +59,9 @@
             "timeperiod":"1725-1780",
             "keyinfo": "Rococo is an exceptionally ornamental and theatrical style of architecture, art and decoration which combines asymmetry, scrolling curves, gilding, white and pastel colors, sculpted molding, and trompe-l'œil frescoes to create surprise and the illusion of motion and drama. It is often described as the final expression of the Baroque movement.",
             "keyartists": [
-                {"name":"Franciso Goya","info":"xxx"},
-                {"name":"Francois Desportes","info":"xxx"},
-                {"name":"Jean Chardin","info":"xxx"}
+                {"name":"Franciso Goya","info":"Goya is considered the most important Spanish artist of the late 18th and early 19th centuries. His paintings, drawings, and engravings reflected contemporary historical upheavals and influenced important 19th- and 20th-century painters. Goya is often referred to as the last of the Old Masters and the first of the moderns."},
+                {"name":"Francois Desportes","info":"Desportes was a French painter and decorative designer who specialised in animals. He received many commissions for decorative panels for the royal châteaux: Versailles, Marly, Meudon, Compiègne and, his last royal commission, for Louis XV at Choisy, 1742. He also did decorative paintings for the duc de Bourbon at Chantilly. Both Louis XIV and Louis XV commissioned portraits of their favorite hunting dogs."},
+                {"name":"Jean Chardin","info":"Jean Chardin was considered a master of still life, and is also noted for his genre paintings which depict kitchen maids, children, and domestic activities. Carefully balanced composition, soft diffusion of light, and granular impasto characterize his work. Chardin said about painting, \"Who said one paints with colors? One employs colors, but one paints with feeling.\""}
             ]
         }
     ],
@@ -70,9 +70,9 @@
             "timeperiod":"1790-1850",
             "keyinfo": "Romanticism was characterized by its emphasis on emotion and individualism, idealization of nature, suspicion of science and industrialization, and glorification of the past with a strong preference for the medieval rather than the classical.  This was partly a reaction to the Industrial Revolition, and the scientific rationalisation of nature.",
             "keyartists": [
-                {"name":"William Blake","info":"xxx"},
-                {"name":"Francisco Goya","info":"xxx"},
-                {"name":"John Constable","info":"xxx"}
+                {"name":"William Blake","info":"Largely unrecognised during his life, Blake is now considered a seminal figure in the history of the poetry and visual art of the Romantic Age. His visual artistry led 21st-century critic Jonathan Jones to proclaim him \"far and away the greatest artist Britain has ever produced\"."},
+                {"name":"Francisco Goya","info":"Goya is considered the most important Spanish artist of the late 18th and early 19th centuries. His paintings, drawings, and engravings reflected contemporary historical upheavals and influenced important 19th- and 20th-century painters. Goya is often referred to as the last of the Old Masters and the first of the moderns."},
+                {"name":"John Constable","info":"Born in Suffolk, John Constable is known principally for revolutionising the genre of landscape painting. Constable's most famous paintings include Wivenhoe Park (1816), Dedham Vale (1821) and The Hay Wain (1821)."}
             ]
         }
     ],
@@ -81,9 +81,9 @@
             "timeperiod":"1850-1925",
             "keyinfo": "Until the nineteenth century Western art was dominated by the academic theory of history painting and High art. Artistic conventions governed style and subject matter, resulting in artworks that often appeared artificial and removed from real life. In response, Realism or Naturalism developed as a movement where scenes from everyday life were painted instead of grand myths.",
             "keyartists": [
-                {"name":"Alphonse Legros","info":"xxx"},
-                {"name":"Gustave Courbet","info":"xxx"},
-                {"name":"Honoré Daumier","info":"xxx"}
+                {"name":"Alphonse Legros","info":"Alphonse Legros was a French-born British painter, etcher, and sculptor, now remembered chiefly for his graphics on macabre and fantastic themes. An excellent draftsman, he taught in London, revitalizing British drawing and printmaking during a period of low ebb."},
+                {"name":"Gustave Courbet","info":"Courbet was a painter who led the Realism movement in 19th-century French painting. Committed to painting only what he could see, he rejected academic convention and the Romanticism of the previous generation of visual artists."},
+                {"name":"Honoré Daumier","info":"Daumier earned a living throughout most of his life producing caricatures and cartoons of political figures and satirizing the behavior of his countrymen in newspapers and periodicals, for which he became well known in his lifetime and is still known today."}
             ]
         }
     ],
@@ -92,9 +92,9 @@
             "timeperiod":"1860-1895",
             "keyinfo": "Developed in France by Claude Monet and other Paris-based artists, impressionists found that instead of painting in a studio, they could capture the momentary and transient effects of sunlight by painting quickly in the open. This led to a greater awareness of light and colour in the natural scene, while brushwork became rapid and broken to render the fleeting quality of light.",
             "keyartists": [
-                {"name":"Claude Monet","info":"xxx"},
-                {"name":"Pierre-Auguste Renoir","info":"xxx"},
-                {"name":"Camille Pissarro","info":"xxx"}
+                {"name":"Claude Monet","info":"Monet was the founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it. During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions before nature."},
+                {"name":"Pierre-Auguste Renoir","info":"Renoir was a French artist who was a leading painter in the development of the Impressionist style. As a celebrator of beauty and especially feminine sensuality, it has been said that \"Renoir is the final representative of a tradition which runs directly from Rubens to Watteau.\""},
+                {"name":"Camille Pissarro","info":"Pissarro studied from great forerunners, including Gustave Courbet and Jean-Baptiste-Camille Corot. In 1873 he helped establish a collective society of fifteen aspiring artists, becoming the \"pivotal\" figure in holding the group together and encouraging the other members. Art historian John Rewald called Pissarro the \"dean of the Impressionist painters\"."}
             ]
         }
     ],
@@ -103,9 +103,9 @@
             "timeperiod":"1890-1920",
             "keyinfo": "Symbolism was a late 19th-century art movement of French, Russian and Belgian origin in poetry and other arts seeking to represent absolute truths symbolically through language and metaphorical images, mainly as a reaction against naturalism and realism. Instead of representing gritty reality and elevating the humble, Symbolism was a reaction in favour of spirituality, the imagination, and dreams.",
             "keyartists": [
-                {"name":"Paul Gauguin","info":"xxx"},
-                {"name":"Jean Delville","info":"xxx"},
-                {"name":"Dante Gabriel Rossetti","info":"xxx"}
+                {"name":"Paul Gauguin","info":"Gauguin is recognized for his experimental use of color and Synthetist style that were distinct from Impressionism. His work was influential on the French avant-garde and many modern artists, such as Pablo Picasso and Henri Matisse, and he is well known for his relationship with Vincent and Theo van Gogh."},
+                {"name":"Jean Delville","info":"Delville was trained at the Académie des Beaux-arts in Brussels and proved to be a highly precocious student, winning most of the prestigious competition prizes at the Academy while still a young student. Characteristically, Delville's paintings are idea-based, expressing philosophical ideals derived from contemporary hermetic and esoteric traditions."},
+                {"name":"Dante Gabriel Rossetti","info":"Rossetti's art was characterised by its sensuality and its medieval revivalism. Poetry and image are closely entwined in Rossetti's work. He frequently wrote sonnets to accompany his pictures, spanning from The Girlhood of Mary Virgin (1849) and Astarte Syriaca (1877), while also creating art to illustrate poems such as Goblin Market by the celebrated poet Christina Rossetti, his sister."}
             ]
         }
     ],
@@ -114,9 +114,9 @@
             "timeperiod":"1890-1910",
             "keyinfo": "A reaction against the academic art, eclecticism and historicism of 19th century architecture and decoration, Art Nouveau was characterised by a sense of dynamism and movement, often given by asymmetry or whiplash lines, and the use of modern materials, particularly iron, glass, ceramics and later concrete, to create unusual forms and larger open spaces.",
             "keyartists": [
-                {"name":"Alphonse Mucha","info":"xxx"},
-                {"name":"Gustav Klimt","info":"xxx"},
-                {"name":"Aubrey Beardsley","info":"xxx"}
+                {"name":"Alphonse Mucha","info":"Mucha was best known for his distinctly stylized and decorative theatrical posters, particularly those of Sarah Bernhardt. At the age of 50, he returned to his homeland of Bohemia region in Austria and devoted himself to painting a series of twenty monumental canvases known as The Slav Epic, depicting the history of all the Slavic peoples of the world."},
+                {"name":"Gustav Klimt","info":"In 1904, he collaborated with other artists on the lavish Palais Stoclet, the home of a wealthy Belgian industrialist that was one of the grandest monuments of the Art Nouveau age. Klimt's contributions to the dining room, including both Fulfillment and Expectation, were some of his finest decorative works, and as he publicly stated, \"probably the ultimate stage of my development of ornament.\""},
+                {"name":"Aubrey Beardsley","info":"Beardsley's contribution to the development of the Art Nouveau and poster styles was significant despite his early death from tuberculosis. His black ink drawings were influenced by Japanese woodcuts, and depicted the grotesque, the decadent, and the erotic. He was also a leading figure in the aesthetic movement."}
             ]
         }
     ],
@@ -125,9 +125,9 @@
             "timeperiod":"1890-1914",
             "keyinfo": "Expressionism is a modernist movement, initially in poetry and painting, originating in Northern Europe around the beginning of the 20th century. Its typical trait is to present the world solely from a subjective perspective, distorting it radically for emotional effect in order to evoke moods or ideas.[1][2] Expressionist artists have sought to express the meaning[3] of emotional experience rather than physical reality",
             "keyartists": [
-                {"name":"Edvard Munch","info":"xxx"},
-                {"name":"Wassilly Kandinsky","info":"xxx"},
-                {"name":"Franz Marc","info":"xxx"}
+                {"name":"Edvard Munch","info":"Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art. According to Munch, he was out walking at sunset, when he 'heard the enormous, infinite scream of nature'. The painting's agonised face is widely identified with the angst of the modern person."},
+                {"name":"Wassilly Kandinsky","info":"Kandinsky was involved in the cultural politics of Russia and collaborated in art education and museum reform. He painted little during this period, but devoted his time to artistic teaching, with a program based on form and colour analysis. His spiritual, expressionistic view of art was ultimately rejected by the radical members of the Institute of Artistic Culture in Moscow as too individualistic and bourgeois."},
+                {"name":"Franz Marc","info":"Marc was one of the key figures of German Expressionism. His mature works mostly depict animals, and are known for bright colouration. In the 1930s, the Nazis named him a degenerate artist as part of their suppression of modern art."}
             ]
         }
     ],
@@ -136,9 +136,9 @@
             "timeperiod":"1906-1914",
             "keyinfo": "Cubism is sometimes considered the most influential art movement of the 20th century. In Cubist artwork, objects are analyzed, broken up and reassembled in an abstracted form—instead of depicting objects from a single viewpoint, the artist depicts the subject from a multitude of viewpoints to represent the subject in a greater context.",
             "keyartists": [
-                {"name":"Pablo Picasso","info":"xxx"},
-                {"name":"Salvador Dali","info":"xxx"},
-                {"name":"Georges Braque","info":"xxx"}
+                {"name":"Pablo Picasso","info":"Regarded as one of the most influential artists of the 20th century, Picasso is known for co-founding the Cubist movement. Exceptionally prolific throughout the course of his long life, Picasso achieved universal renown and immense fortune for his revolutionary artistic accomplishments, and became one of the best-known figures in 20th-century art."},
+                {"name":"Salvador Dalí","info":"Dali was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work. Dalí received his formal education in fine arts in Madrid. Influenced by Impressionism and the Renaissance masters from a young age, he became increasingly attracted to Cubism and avant-garde movements."},
+                {"name":"Georges Braque","info":"Braque was a major 20th-century French painter, collagist, draughtsman, printmaker and sculptor. He played a key role in the development of Cubism. His Cubist works were indistinguishable from Picasso's for many years, yet the quiet nature of Braque was partially eclipsed by the fame and notoriety of Picasso."}
             ]
         }
     ],
@@ -147,9 +147,9 @@
             "timeperiod":"1909-1945",
             "keyinfo": "Futurism was an artistic and social movement that originated in Italy in the early 20th century and also developed in Russia and to a lesser extent in other countries. It emphasized dynamism, speed, technology, youth, violence, and objects such as the car, the airplane, and the industrial city.",
             "keyartists": [
-                {"name":"Giacomo Balla","info":"xxx"},
-                {"name":"Umberto Boccioni","info":"xxx"},
-                {"name":"Gino Severini","info":"xxx"}
+                {"name":"Giacomo Balla","info":"Balla was an Italian painter, art teacher and poet best known as a key proponent of Futurism. In his paintings he depicted light, movement and speed. He was concerned with expressing movement in his works, but unlike other leading futurists he was not interested in machines or violence with his works tending towards the witty and whimsical."},
+                {"name":"Umberto Boccioni","info":"Boccioni was an influential Italian painter and sculptor. He helped shape the revolutionary aesthetic of the Futurism movement as one of its principal figures. Despite his short life, his approach to the dynamism of form and the deconstruction of solid mass guided artists long after his death."},
+                {"name":"Gino Severini","info":"Severini was an Italian painter and a leading member of the Futurist movement. For much of his life he divided his time between Paris and Rome. He was associated with neo-classicism and the \"return to order\" in the decade after the First World War. During his career he worked in a variety of media, including mosaic and fresco. He showed his work at major exhibitions, including the Rome Quadrennial, and won art prizes from major institutions."}
             ]
         }
     ],
@@ -205,17 +205,6 @@
                 {"name":"Andy Warhol","info":"xxx"},
                 {"name":"Roy Lichtenstein","info":"xxx"},
                 {"name":"Jasper Johns","info":"xxx"}
-            ]
-        }
-    ],
-    "Neo-Expressionism": [
-        {
-            "timeperiod":"1980-1989",
-            "keyinfo": "Neo-Expressionism was seen as a reaction to the minimalism and conceptual art that had dominated the 1970s. The momevement comprised a varied assemblage of young artists who had returned to portraying the human body and other recognizable objects. ",
-            "keyartists": [
-                {"name":"David Salle","info":"xxx"},
-                {"name":"Anselm Kiefer","info":"xxx"},
-                {"name":"Philip Guston","info":"xxx"}
             ]
         }
     ]

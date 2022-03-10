@@ -2,216 +2,216 @@
     "Romanesque": [
         {
             "periodWork": [
-                {"name":"The Temptation of Christ by the Devil","link":"http://localhost:3000/static/images/period/romanesque.jpg"}
+                {"name":"The Temptation of Christ by the Devil, 1129-1234","link":"http://localhost:3000/static/images/period/romanesque.jpg"}
             ],
             "artistWork": [
-                {"name":"Apse of Sant Climent, Taüll","link":"http://localhost:3000/static/images/artist/romanesque-1.jpg"},
-                {"name":"The Virgin and Child in Majesty and the Adoration of the Magi","link":"http://localhost:3000/static/images/artist/romanesque-2.jpg"},
-                {"name":"Madonna and child","link":"http://localhost:3000/static/images/artist/romanesque-3.jpg"}
+                {"name":"Apse of Sant Climent, Taüll, 1123","link":"http://localhost:3000/static/images/artist/romanesque-1.jpg"},
+                {"name":"The Virgin and Child in Majesty and the Adoration of the Magi, 1100","link":"http://localhost:3000/static/images/artist/romanesque-2.jpg"},
+                {"name":"Madonna and child, 1230","link":"http://localhost:3000/static/images/artist/romanesque-3.jpg"}
             ]
         }
     ],
     "Gothic": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Liberation of St. Peter, 1444, Konrad Witz","link":"http://localhost:3000/static/images/period/gothic.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Lamentation Over the Dead Christ, 1304","link":"http://localhost:3000/static/images/artist/gothic-1.jpg"},
+                {"name":"Annunciation, 1344","link":"http://localhost:3000/static/images/artist/gothic-2.jpg"},
+                {"name":"Paradise, 1375","link":"http://localhost:3000/static/images/artist/gothic-3.jpg"}
             ]
         }
     ],
     "Renaissance": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Disputation of the Holy Sacrament, 1509-1510, Raphael","link":"http://localhost:3000/static/images/period/renaissance.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Mona Lisa, 1503-1506","link":"http://localhost:3000/static/images/artist/renaissance-1.jpg"},
+                {"name":"The Creation of Adam, 1508-1512","link":"http://localhost:3000/static/images/artist/renaissance-2.jpg"},
+                {"name":"The School of Athens, 1509","link":"http://localhost:3000/static/images/artist/renaissance-3.jpg"}
             ]
         }
     ],
     "Mannerism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Henry Howard, Earl of Surrey, 1546, Unknown Artist","link":"http://localhost:3000/static/images/period/mannerism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Last Judgement, section, 1536-1541","link":"http://localhost:3000/static/images/artist/mannerism-1.jpg"},
+                {"name":"Entombment in Santa Felicita, 1528","link":"http://localhost:3000/static/images/artist/mannerism-2.jpg"},
+                {"name":"Self-portrait in a Convex Mirror, 1524","link":"http://localhost:3000/static/images/artist/mannerism-3.jpg"}
             ]
         }
     ],
     "Baroque": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Venus and Adonis, 1635-1640, Peter Paul Rubens","link":"http://localhost:3000/static/images/period/baroque.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"The Taking of Christ, 1602","link":"http://localhost:3000/static/images/artist/baroque-1.jpg"},
+                {"name":"The Night Watch, 1642","link":"http://localhost:3000/static/images/artist/baroque-2.jpg"},
+                {"name":"Girl with a Pearl Earring, 1665","link":"http://localhost:3000/static/images/artist/baroque-3.jpg"}
             ]
         }
     ],
     "Rococo": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Embarkation for Cythera, 1717, Jean-Antoine Watteau","link":"http://localhost:3000/static/images/period/rococo.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Blind Man's Bluff, 1789","link":"http://localhost:3000/static/images/artist/rococo-1.jpg"},
+                {"name":"Nature morte au gibier et a la coupe de porcelaine, 1700-1710","link":"http://localhost:3000/static/images/artist/rococo-2.jpg"},
+                {"name":"The Attributes of Exploration, 1731","link":"http://localhost:3000/static/images/artist/rococo-3.jpg"}
             ]
         }
     ],
     "Romanticism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Death of Sardanapalus, 1827, Eugène Delacroix","link":"http://localhost:3000/static/images/period/romanticism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"The Body of Christ Borne to the Tomb, 1799-1800","link":"http://localhost:3000/static/images/artist/romanticism-1.jpg"},
+                {"name":"Sacrifice to Pan, 1771","link":"http://localhost:3000/static/images/artist/romanticism-2.jpg"},
+                {"name":"The Hay Wain, 1821","link":"http://localhost:3000/static/images/artist/romanticism-3.jpg"}
             ]
         }
     ],
     "Realism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Stone Breakers, 1850, Gustave Courbet","link":"http://localhost:3000/static/images/period/realism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"L'angelus, 1859","link":"http://localhost:3000/static/images/artist/realism-1.jpg"},
+                {"name":"Bonjour, Monsieur Courbet, 1854","link":"http://localhost:3000/static/images/artist/realism-2.jpg"},
+                {"name":"The Third-Class Carriage, 1862-1864","link":"http://localhost:3000/static/images/artist/realism-3.jpg"}
             ]
         }
     ],
     "Impressionism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Dance at Le Moulin de la Galette, 1876, Pierre-Auguste Renoir","link":"http://localhost:3000/static/images/period/impressionism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Impression, Sunrise, 1872","link":"http://localhost:3000/static/images/artist/impressionism-1.jpg"},
+                {"name":"Portrait of Mademoiselle Irène Cahen d'Anvers, 1880","link":"http://localhost:3000/static/images/artist/impressionism-2.jpg"},
+                {"name":"Boulevard Montmartre, 1897","link":"http://localhost:3000/static/images/artist/impressionism-3.jpg"}
             ]
         }
     ],
     "Symbolism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Shore of Oblivion, 1889, Eugen Bracht","link":"http://localhost:3000/static/images/period/symbolism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Ia Orana Maria (Ave Maria), 1891","link":"http://localhost:3000/static/images/artist/symbolism-1.jpg"},
+                {"name":"L'Ecole de Platon, 1898","link":"http://localhost:3000/static/images/artist/symbolism-2.jpg"},
+                {"name":"Beata Beatrix, 1864-1870","link":"http://localhost:3000/static/images/artist/symbolism-3.jpg"}
             ]
         }
     ],
     "Art Nouveau": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Municipal House (Obecní Dum) Ceiling, 1910-1912, Alphonse Mucha","link":"http://localhost:3000/static/images/period/artnouveau.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Reverie, poster for the publishing house Champenois, 1897","link":"http://localhost:3000/static/images/artist/artnouveau-1.jpg"},
+                {"name":"The Kiss, 1907-1908","link":"http://localhost:3000/static/images/artist/artnouveau-2.jpg"},
+                {"name":"Masquerade, 1894","link":"http://localhost:3000/static/images/artist/artnouveau-3.jpg"}
             ]
         }
     ],
     "Expressionism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Cossacks, 1910-1911, Wassily Kandinsky","link":"http://localhost:3000/static/images/period/expressionism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"The Scream, 1910","link":"http://localhost:3000/static/images/artist/expressionism-1.jpg"},
+                {"name":"Composition V, 1911","link":"http://localhost:3000/static/images/artist/expressionism-2.jpg"},
+                {"name":"The Large Blue Horses, 1911","link":"http://localhost:3000/static/images/artist/expressionism-3.jpg"}
             ]
         }
     ],
     "Cubism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Artillery, 1911, Roger de la Fresnaye","link":"http://localhost:3000/static/images/period/cubism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Girl with a Mandolin, 1910","link":"http://localhost:3000/static/images/artist/cubism-1.jpg"},
+                {"name":"Cubist Self-Portrait, 1923","link":"http://localhost:3000/static/images/artist/cubism-2.jpg"},
+                {"name":"La guitare, 1909-10","link":"http://localhost:3000/static/images/artist/cubism-3.jpg"}
             ]
         }
     ],
     "Futurism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The City Rises, 1910, Umberto Boccioni","link":"http://localhost:3000/static/images/period/futurism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Dynamism of a Dog on a Leash, 1912","link":"http://localhost:3000/static/images/artist/futurism-1.jpg"},
+                {"name":"Dynamism of a Cyclist, 1913","link":"http://localhost:3000/static/images/artist/futurism-2.jpg"},
+                {"name":"Dynamic Hieroglyphic of the Bal Tabarin, 1912","link":"http://localhost:3000/static/images/artist/futurism-3.jpg"}
             ]
         }
     ],
     "Dadaism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"A collection of works printed in New York, 1915, Francis Picabia","link":"http://localhost:3000/static/images/period/dada.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Fountain, 1917, photograph by Alfred Stieglitz","link":"http://localhost:3000/static/images/artist/dada-1.jpg"},
+                {"name":"Ubu Imperator, 1923","link":"http://localhost:3000/static/images/artist/dada-2.jpg"},
+                {"name":"Dame! Illustration for the cover of the periodical Dadaphone, 1920","link":"http://localhost:3000/static/images/artist/dada-3.jpg"}
             ]
         }
     ],
     "Surrealism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"The Persistence of Memory, 1931, Salvador Dalí","link":"http://localhost:3000/static/images/period/surrealism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Mountain Lake, 1938","link":"http://localhost:3000/static/images/artist/surrealism-1.jpg"},
+                {"name":"The Two Fridas, 1939","link":"http://localhost:3000/static/images/artist/surrealism-2.jpg"},
+                {"name":"La Décalcomanie, 1966","link":"http://localhost:3000/static/images/artist/surrealism-3.jpg"}
             ]
         }
     ],
     "Abstract Expressionism": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Wall Painting No III, 1953, Robert Motherwell","link":"http://localhost:3000/static/images/period/abstractexpressionism.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"One: Number 31, 1950","link":"http://localhost:3000/static/images/artist/abstractexpressionism-1.jpg"},
+                {"name":"Attic, 1949","link":"http://localhost:3000/static/images/artist/abstractexpressionism-2.jpg"},
+                {"name":"Orange and Tan, 1954","link":"http://localhost:3000/static/images/artist/abstractexpressionism-3.jpg"}
             ]
         }
     ],
     "Pop-Art": [
         {
             "periodWork": [
-                {"name":"","link":""}
+                {"name":"Campbell's Soup Cans, 1962, Andy Warhol","link":"http://localhost:3000/static/images/period/popart.jpg"}
             ],
             "artistWork": [
-                {"name":"","link":""},
-                {"name":"","link":""},
-                {"name":"","link":""}
+                {"name":"Marilyn Diptych, 1962","link":"http://localhost:3000/static/images/artist/popart-1.jpg"},
+                {"name":"Modern Art I, 1996","link":"http://localhost:3000/static/images/artist/popart-2.jpg"},
+                {"name":"Map, 1961","link":"http://localhost:3000/static/images/artist/popart-3.jpg"}
             ]
         }
     ]

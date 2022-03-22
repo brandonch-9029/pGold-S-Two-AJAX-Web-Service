@@ -1,10 +1,15 @@
 async function getPeriods () {
+    try {
     const response = await fetch('http://localhost:3000/periods')
     const data = await response.json()
 
     console.log(data)
     romanButtonInitalise(data)
     createPeriodList(data)
+    }
+    catch(err) {
+        alert("Unable to communicate with the server! Please try again later!")
+    }
 }
 
 function createPeriodList (periodList) {
@@ -30,6 +35,7 @@ function createPeriodList (periodList) {
 }
 
 async function loadPeriodName (period) {
+    try {
     let infoString = await getPeriodInfo(period)
     document.getElementById('periodInfo').innerHTML = `
     ${description}
@@ -50,9 +56,14 @@ async function loadPeriodName (period) {
     ${periodImageName}
     `
     updateArtistInfo('one')
+    }
+    catch(err) {
+        alert("Unable to communicate with the server! Please try again later!")
+    }
 }
 
 async function getPeriodInfo (period) {
+    try {
     const response = await fetch('http://localhost:3000/periods')
     const data = await response.json()
     const linkData = await getArtLinks()
@@ -72,6 +83,10 @@ async function getPeriodInfo (period) {
     artistThreeImageName = linkData[period][0].artistWork[2].name
     artistThreeImageLink = linkData[period][0].artistWork[2].link
     return {description, periodImageLink, periodImageLink, artistOne, artistTwo, artistThree, artistOneInfo, artistTwoInfo, artistThreeInfo, artistOneImageName, artistOneImageLink, artistTwoImageName, artistTwoImageLink, artistThreeImageName, artistThreeImageLink}
+    }
+    catch(err) {
+        alert("Unable to communicate with the server! Please try again later!")
+    }
 }
 
 function updateArtistInfo (artistIndex) {
@@ -82,9 +97,14 @@ function updateArtistInfo (artistIndex) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistOneInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistOneImageLink}" class="img-fluid">
+        <img src="${artistOneImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistOneImageName}
         `;
@@ -96,9 +116,14 @@ function updateArtistInfo (artistIndex) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistTwoInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistTwoImageLink}" class="img-fluid">
+        <img src="${artistTwoImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistTwoImageName}
         `;
@@ -110,9 +135,14 @@ function updateArtistInfo (artistIndex) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistThreeInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistThreeImageLink}" class="img-fluid">
+        <img src="${artistThreeImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistThreeImageName}
         `;
@@ -147,6 +177,7 @@ async function romanButtonInitalise (data) {
 }
 
 function romanButtonClick (index) {
+    try{
     if (index == "one") {
         document.getElementById('selectedArtistName').innerHTML = `
         ${artistOne}
@@ -154,9 +185,14 @@ function romanButtonClick (index) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistOneInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistOneImageLink}" class="img-fluid">
+        <img src="${artistOneImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistOneImageName}
         `;
@@ -168,9 +204,14 @@ function romanButtonClick (index) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistTwoInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistTwoImageLink}" class="img-fluid">
+        <img src="${artistTwoImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistTwoImageName}
         `;
@@ -182,12 +223,21 @@ function romanButtonClick (index) {
         document.getElementById('selectedArtistInfo').innerHTML = `
         ${artistThreeInfo}
         `
+        try {
         document.getElementById('selectedArtistWork').innerHTML = `
-        <img src="${artistThreeImageLink}" class="img-fluid">
+        <img src="${artistThreeImageLink}" class="img-fluid" onerror="alert('Unable to communicate with the server! Please try again later!')">
         `
+        }
+        catch(err) {
+            alert("Unable to communicate with the server! Please try again later!")
+        }
         document.getElementById('selectedArtistWorkName').innerHTML = `
         ${artistThreeImageName}
         `;
+    }
+    }
+    catch(err) {
+        alert("Unable to communicate with the server! Please try again later!")
     }
 }
 
@@ -205,12 +255,18 @@ function addUserData (ev) {
     req.open('POST', url, true)
     req.setRequestHeader('Content-Type',"application/json; charset=UTF-8")
     req.send(JSON.stringify(user))
+    req.onerror(alert("Unable to communicate with the server! Please try again later!"))
 }
 
 async function getArtLinks () {
+    try {
     const response = await fetch('http://localhost:3000/artlinks')
     const linkData = await response.json()
     return linkData
+    }
+    catch(err) {
+        alert("Unable to communicate with the server! Please try again later!")
+    }
 }
 
 getPeriods()

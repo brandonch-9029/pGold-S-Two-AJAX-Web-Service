@@ -1,5 +1,5 @@
 async function getPeriods () {
-    const response = await fetch('http://localhost:3000/static/json/periods.json')
+    const response = await fetch('http://localhost:3000/periods')
     const data = await response.json()
 
     console.log(data)
@@ -53,7 +53,7 @@ async function loadPeriodName (period) {
 }
 
 async function getPeriodInfo (period) {
-    const response = await fetch('http://localhost:3000/static/json/periods.json')
+    const response = await fetch('http://localhost:3000/periods')
     const data = await response.json()
     const linkData = await getArtLinks()
     description = data[period][0].keyinfo
@@ -208,7 +208,7 @@ function addUserData (ev) {
 }
 
 async function getArtLinks () {
-    const response = await fetch('http://localhost:3000/static/json/artLinks.json')
+    const response = await fetch('http://localhost:3000/artlinks')
     const linkData = await response.json()
     return linkData
 }
